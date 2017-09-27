@@ -1,0 +1,23 @@
+{
+  "name": "workspacetest",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Dev Workspace",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:labriola/workspaceModuleBug.git"
+  },
+  "homepage": "https://github.com/labriola/workspaceModuleBug",
+  "author": "Michael Labriola <labriola@digitalprimates.net>",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+  },
+  "workspaces": [
+    "test1",
+    "test2"
+  ]
+}

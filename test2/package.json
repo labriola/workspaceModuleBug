@@ -1,0 +1,21 @@
+{
+  "name": "test2",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Dev Workspace Test 2",
+  "scripts": {
+    "postinstall": "shx echo postinstall test 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:labriola/workspaceModuleBug.git"
+  },
+  "homepage": "https://github.com/labriola/workspaceModuleBug",
+  "author": "Michael Labriola <labriola@digitalprimates.net>",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "shx": "^0.2.2"
+  }
+}
